@@ -1,0 +1,5 @@
+<router-outlet></router-outlet>
+
+<div *ngIf="showPaymentButton" class="Next_button">
+	<button type="button" [routerLink]="['/paymentmethod']">Pay with credit card</button>
+</div>
